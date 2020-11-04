@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videojuego SYSTEM examen.dtd">
+<videjuego>
+lista de contenidos
+    <protagonista saga = streetfighter poder = hadoken creador = "capcom" estreno 2020 = no> ryu </protagonista>
+    <villano saga = streetfighter poder = purplehadoken creador = "capcom" estreno 2020 = no>akuma</villano>
+    <puntacion>
+        <valoracion>10</valoracion>
+    </puntuacion>
+    <placaarcade>
+    <nombre>CPS-2</nombre>
+    </placaarcade>
+    <protagonista saga = mariobros poder = fuego creador = "&nintendo;" estreno 2020 = si> mario </protagonista>
+    <villano saga = mario poder = salto creador = "&nintendo;" estreno 2020 = si>bowser</villano>
+    <arquitectura32 pertenecen = "mariobros streetfighter"/>
+</videojuego>

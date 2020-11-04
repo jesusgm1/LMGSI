@@ -1,0 +1,19 @@
+<!ELEMENT videojuego (#PCDATA | protagonista | villano | puntuacion | arquitectura | placa aracade)*>
+<!ENTITY %creador "compañia (nintendo | sega | capcom)* ">
+<!ELEMENT protagonista (#PCDATA)>
+<!ATTLIST protagonista saga ID #REQUIRED>
+<!ATTLIST protagonista poder CDATA>
+<!ATTLIST protagonista %creador;>
+<!ATTLIST protagonista estreno 2020 CDATA #FIXED "si">
+<!ELEMENT villano (#PCDATA)>
+<!ATTLIST villano saga IDREF #REQUIRED>
+<!ATTLIST villano poder CDATA>
+<!ATTLIST villano %creador;>
+<!ATTLIST villano estreno 2020 CDATA #FIXED "si">
+<!ELEMENT puntuacion (valoracion+)>
+<!ELEMENT valoracion (#PCDATA)>
+<!ELEMENT arquitectura32 EMPTY>
+<!ATTLIST arquitectura32 pertenecen IDREFS #IMPLIED>
+<!ELEMENT placaarcade (nombre?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ENTITY nintendo "de la gran N">
