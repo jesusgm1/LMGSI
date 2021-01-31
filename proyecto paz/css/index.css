@@ -1,0 +1,86 @@
+
+.principal {
+    margin: auto;
+    padding: 0px;
+    background:#FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+    color: #000000;
+}
+
+
+
+.menu{
+    background: pink;
+    color:white;
+    text-align:center;
+}
+
+
+
+.menu li{
+    display:inline;
+    margin:10%;
+}
+
+.menu a:hover{
+    cursor:pointer;
+    color:white;
+    background-color:mistyrose;
+}
+
+
+
+.texto {
+    color: #000000;
+    padding-left:30px;
+}
+
+
+
+.mapa {
+    text-align:center;
+    height:auto;
+    width:auto;
+}
+
+.tablaEuropa{
+    text-align:center;
+    margin-left:140px;
+    padding-top:100px;
+    height:auto;
+    width:auto;
+}
+
+.Aristide {
+    height: 100%;
+    width: 100%;
+}
+
+span {
+    font-weight:bold;
+}
+
+
+
+.Conflictos {
+    margin-left:125px;
+    padding-top:25px;
+}
+
+
+
+.video {
+    color: #000000;
+    padding-left:100px;
+    padding-top:25px;
+}
+
+
+
+.formulario{
+    text-align:center;
+    padding-top:25px;
+    height:auto;
+    width:auto;
+}
